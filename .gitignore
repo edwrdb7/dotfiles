@@ -1,0 +1,5 @@
+lazy-lock.json
+.undo/
+.zcompdump
+.zsh_history
+sync.sh

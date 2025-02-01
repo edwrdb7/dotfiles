@@ -1,0 +1,11 @@
+theme = "Adwaita Dark"
+font-family = "JetBrains Mono"
+font-size = "11"
+bold-is-bright = "true"
+shell-integration = "zsh"
+shell-integration-features = "no-cursor"
+cursor-style = "block"
+window-height = "34"
+window-width = "144"
+command = "TERM=xterm-256color /usr/bin/zsh"
+
