@@ -7,4 +7,4 @@ vim.opt.number = true
 vim.opt.fillchars = { eob = " " }
 vim.o.undofile = true
 vim.o.undodir = vim.fn.stdpath('config')..'/.undo'
-
+vim.o.conceallevel = 2

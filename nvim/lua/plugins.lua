@@ -62,11 +62,11 @@ return {
 
 -- copilot plugin
   {
-    'CopilotC-Nvim/CopilotChat.nvim',
+    "CopilotC-Nvim/CopilotChat.nvim",
     dependencies = {
-      { 'github/copilot.vim' },
-      { 'nvim-lua/plenary.nvim', branch = 'master' },
-    }
+      { "github/copilot.vim" },
+      { "nvim-lua/plenary.nvim", branch = "master" },
+    },
   },
 
 -- mini plugins
@@ -76,5 +76,10 @@ return {
 	'echasnovski/mini.starter',
   },
 
-}
+-- telekasten plugin
+  {
+    'renerocksai/telekasten.nvim',
+    dependencies = {'nvim-telescope/telescope.nvim'}
+  },
 
+}
